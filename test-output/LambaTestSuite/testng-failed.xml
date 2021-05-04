@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="3" parallel="tests" name="Failed suite [LambaTestSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="3" parallel="tests" name="EdgeTest(failed)">
+    <parameter name="browser" value="edge"/>
+    <parameter name="version" value=" 89.0.774.68"/>
+    <classes>
+      <class name="SignUpTest">
+        <methods>
+          <include name="emptyEmailTest"/>
+          <include name="landingPageRedirectionTest"/>
+          <include name="tearDown"/>
+          <include name="validRegistrationTest"/>
+          <include name="emptyNameTest"/>
+          <include name="termsRedirectionTest"/>
+          <include name="emptyPasswordTest"/>
+          <include name="inValidPhoneTest"/>
+          <include name="uncheckedTerms"/>
+          <include name="emptyPhoneTest"/>
+          <include name="openBrowser"/>
+          <include name="setUp"/>
+          <include name="emptyCompanyNameTest"/>
+          <include name="invalidEmailTest"/>
+          <include name="privacyPolicyRedirectionTest"/>
+          <include name="inValidPasswordTest"/>
+          <include name="loginRedirectionTest"/>
+          <include name="verifyElemntsOnPageTest"/>
+        </methods>
+      </class> <!-- SignUpTest -->
+    </classes>
+  </test> <!-- EdgeTest(failed) -->
+  <test thread-count="3" parallel="tests" name="ChromeTest(failed)">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="version" value="89.0.4389.114"/>
+    <classes>
+      <class name="SignUpTest">
+        <methods>
+          <include name="emptyEmailTest"/>
+          <include name="landingPageRedirectionTest"/>
+          <include name="tearDown"/>
+          <include name="validRegistrationTest"/>
+          <include name="emptyNameTest"/>
+          <include name="termsRedirectionTest"/>
+          <include name="emptyPasswordTest"/>
+          <include name="inValidPhoneTest"/>
+          <include name="uncheckedTerms"/>
+          <include name="emptyPhoneTest"/>
+          <include name="openBrowser"/>
+          <include name="setUp"/>
+          <include name="emptyCompanyNameTest"/>
+          <include name="invalidEmailTest"/>
+          <include name="privacyPolicyRedirectionTest"/>
+          <include name="inValidPasswordTest"/>
+          <include name="loginRedirectionTest"/>
+          <include name="verifyElemntsOnPageTest"/>
+        </methods>
+      </class> <!-- SignUpTest -->
+    </classes>
+  </test> <!-- ChromeTest(failed) -->
+  <test thread-count="3" parallel="tests" name="FirefoxTest(failed)">
+    <parameter name="browser" value="firefox"/>
+    <parameter name="version" value="87.0"/>
+    <classes>
+      <class name="SignUpTest">
+        <methods>
+          <include name="emptyEmailTest"/>
+          <include name="landingPageRedirectionTest"/>
+          <include name="tearDown"/>
+          <include name="validRegistrationTest"/>
+          <include name="emptyNameTest"/>
+          <include name="termsRedirectionTest"/>
+          <include name="emptyPasswordTest"/>
+          <include name="inValidPhoneTest"/>
+          <include name="uncheckedTerms"/>
+          <include name="emptyPhoneTest"/>
+          <include name="openBrowser"/>
+          <include name="setUp"/>
+          <include name="emptyCompanyNameTest"/>
+          <include name="invalidEmailTest"/>
+          <include name="privacyPolicyRedirectionTest"/>
+          <include name="inValidPasswordTest"/>
+          <include name="loginRedirectionTest"/>
+          <include name="verifyElemntsOnPageTest"/>
+        </methods>
+      </class> <!-- SignUpTest -->
+    </classes>
+  </test> <!-- FirefoxTest(failed) -->
+</suite> <!-- Failed suite [LambaTestSuite] -->
